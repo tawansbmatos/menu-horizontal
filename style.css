@@ -1,0 +1,54 @@
+/*reset para toda o meu site onde eu tiro as margens pedding que vem por padrão no site e acrescendo oque me convem para toda a minha página */
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+}
+/*corpo do meu site*/
+body{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 100vh;
+}
+/*fim do corpo do site*/
+
+/*cabeçalho do site onde vai segurar o container do menu */
+.header{
+    position: fixed;
+    width: 100%;
+    background-color: #1a6ed8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.ancora-logo{
+    color: #fff;
+    font-size: 20px;
+}
+.menu-nav{
+    padding: 15px;
+}
+.lista-menu{
+    display: flex;
+}
+.itens-menu{
+    margin: 10px; 
+    border-radius: 30px;
+}
+.ancoras-menu{
+    color: #fff; 
+    padding: 10px 20px 10px 20px;   
+}
+#active{
+    border: 1px solid #fff;
+    border-radius: 30px;
+}
+.ancoras-menu:hover{
+    background-color: rgba(255, 255, 255, 0.316);
+    border-radius: 30px;
+}
